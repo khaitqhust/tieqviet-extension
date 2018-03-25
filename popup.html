@@ -1,11 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Popup</title>
-    <script src="images/jquery-2.1.4.min.js"></script>
-    <script src="images/popup.js"></script>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 240px;
+            margin: auto;
+            text-align: center;
+            background-color: antiquewhite;
+        }
+
+        button {
+            margin: 4px;
+            width: 150px;
+            padding: 4px;
+            font-weight: bold;
+            background-color: #66aefa;
+
+            border: none    ;
+        }
+
+        #btnchangeBackground {
+            color: red;
+        }
+
+        #btnChangeChar {
+            color: white;
+        }
+    </style>
+
+    <script src="javascript/jquery-3.3.1.min.js" defer></script>
+    <script src="javascript/popup.js" defer></script>
 </head>
+
 <body>
-<button class="deadify">Deadify</button>
+    <button id="btnChangeChar">Chuyển kí tự</button> <br>
+    <button id="btnchangeBackground">Chuyển màu nền</button> <br>
+    <p>Refresh lại trang để đưa về ban đầu</p>
 </body>
 </html>
